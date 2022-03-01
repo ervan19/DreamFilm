@@ -9,6 +9,11 @@ body {
   font-family: "Roboto", sans-serif;
   color: white;
 }
+::selection{
+  color: #1f2138;
+  background :#e3f2ff
+}
+
 body::-webkit-scrollbar {
   width: 10px;
 }
