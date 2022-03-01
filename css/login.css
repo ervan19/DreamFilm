@@ -82,8 +82,11 @@ a {
   flex-direction: column;
   gap: 20px;
 }
+.box-input label{
+  width: 100%;
+}
 .box-input input {
-  width: 400px;
+  width: 100%;
   padding: 15px 20px;
   border-radius: 12px;
   background: linear-gradient(
@@ -137,15 +140,14 @@ a {
   opacity: 0.9;
 }
 
-
-@media (min-width : 648px) {
-  .box-login{
+@media (min-width: 648px) {
+  .box-login {
     flex-direction: row;
     width: 70%;
-  height: 500px;
-  margin: 0 0;
+    height: 500px;
+    margin: 0 0;
   }
   .box-img {
- display: block;
-}
+    display: block;
+  }
 }
