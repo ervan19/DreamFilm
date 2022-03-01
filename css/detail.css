@@ -1,0 +1,57 @@
+/* Detail */
+.detail {
+  margin: auto;
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.detail-container {
+  padding: 30px 20px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+}
+.detail-img img {
+  width: 100%;
+}
+.detail-img {
+  width: 100%;
+  height: 100%;
+  background-color: #1f2138;
+}
+.detail-container h1,
+.detail-container h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.detail-container h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.detail-movie {
+  line-height: 25px;
+}
+.tagline {
+  margin-top: 20px;
+  color: #43ddff;
+  text-align: center;
+  font-style: italic;
+}
+.icon-user,
+.icon-clock {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.popularity,
+.runtime {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

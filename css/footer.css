@@ -1,0 +1,49 @@
+footer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(196, 196, 196, 0.1) 100%
+  );
+  padding: 50px 10px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.footer-left h1 {
+  margin-bottom: 10px;
+}
+.linkedin,
+.github,
+.instagram {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-about {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+  footer {
+    flex-direction: row;
+    padding: 50px 90px;
+  }
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    align-items: flex-start;
+  }
+}

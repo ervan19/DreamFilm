@@ -1,0 +1,131 @@
+/* MOVIE CARD */
+.movie-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 20px;
+  text-align: left;
+}
+.heading {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+}
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+.card-container a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+.card {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 8px 12px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+.card-title {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.card-content {
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.category-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+.card-heading-category {
+  width: 100%;
+  padding: 0 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-heading-category a:hover , .card a:hover{
+  color:#43ddff;;
+}
+.card-heading-category h1 {
+  font-size: 24px;
+}
+.showMore {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.card-content h3 {
+  font-size: 13px;
+}
+.icon-star,
+.icon-arrow,
+.icon-info {
+  width: 20px;
+  height: 20px;
+}
+.icon-star {
+  color: #ffd027;
+}
+.content-left,
+.content-right {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+.content-right {
+  cursor: pointer;
+}
+.showDetail {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+.card:hover .overlay {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .card-heading-category {
+    text-align: left;
+  }
+  .category-card {
+    justify-content: flex-start;
+  }
+  .heading {
+    font-size: 28px;
+  }
+}
+
+/* AKHIR MOVIE CARD */

@@ -1,0 +1,42 @@
+.about{
+    width:100%;
+    text-align: center;
+    padding: 20px 50px;
+}
+.content{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.text-content p{
+    line-height: 20px;
+}
+
+.img-content h1 span, .aboutLink{
+    color: #43ddff ;
+}
+.img-content{
+    transition: all .5s ease-in-out;
+}
+
+.img-content:hover{
+    /* transform: scale(1.2); */
+    transform: translateY(-10px);
+}
+.about h1{
+    margin-bottom: 30px;
+}
+
+.about p{
+    font-weight: 400;
+}
+
+@media (min-width: 640px) {
+    .content{
+        flex-direction: row;
+        gap: 70px;
+    }
+}
