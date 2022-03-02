@@ -53,7 +53,6 @@ function showSectionDetail(m) {
 document.addEventListener("DOMContentLoaded", async function (e) {
   let urlParams = new URLSearchParams(document.location.search);
   let infoUrl = urlParams.get("id");
-  console.log(infoUrl);
   const detailMovie = await getDetailMovies(infoUrl);
   updateUIDetail(detailMovie);
 });

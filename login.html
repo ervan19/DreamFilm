@@ -15,22 +15,27 @@
             </div>
             <div class="box-input">
                 <h2>LOG IN</h2>
-                <label for="email">
-                    Email :
-                    <input type="email" id="email" placeholder="example@gmail.com" autofocus>
-                </label>
-                <label for="password">
-                    Password :
-                    <input type="password" id="password" name="password" placeholder="*********">
-                </label>
-                <a href="/index.html" class="submit">Login</a>
+                <form action="" name="forms">
+                    <label for="email">
+                        <b>Email :</b>
+                        <input type="email" class="email" placeholder="example@gmail.com" required>
+                        <p class="messageEmail">Please fill out this fill</p>
+                    </label>
+                    <label for="password">
+                        <b>Password :</b>
+                        <input type="password" class="password" name="password" placeholder="*********" required>
+                        <p class="messagePass">Please fill out this fill</p>
+                    </label>
+                   
+                    <input type="submit" class="submit" value="Login"></input>
+                </form>
                 <p>Or <a href="/signup.html">Register</a></p>
             </div>
         </div>
         <div class="detail-container">
-            
+      
         </div>
     </div>
 </body>
-
+<script src="/js/login.js"></script>
 </html>

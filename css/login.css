@@ -82,8 +82,16 @@ a {
   flex-direction: column;
   gap: 20px;
 }
-.box-input label{
+form {
   width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box-input label {
+  width: 100%;
+  margin-bottom: 20px;
 }
 .box-input input {
   width: 100%;
@@ -117,6 +125,8 @@ a {
   align-items: center;
   margin-top: 20px;
   width: 150px;
+  outline: none;
+  border: none;
   font-size: 20px;
   font-weight: 600;
   padding: 10px 20px;
@@ -150,4 +160,20 @@ a {
   .box-img {
     display: block;
   }
+}
+
+.box-input input .error {
+  border: 2px solid rgb(255, 131, 131);
+}
+.messageEmail,
+.messagePass {
+  display: none;
+}
+.error {
+  color: rgb(255, 131, 131);
+  display: block;
+}
+
+.errorInput {
+  border: 2px solid rgb(255, 131, 131);
 }
