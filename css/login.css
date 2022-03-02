@@ -92,6 +92,10 @@ form {
 .box-input label {
   width: 100%;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
 }
 .box-input input {
   width: 100%;
@@ -113,12 +117,6 @@ form {
   font-weight: 400;
 }
 
-.box-input label {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
-}
 .box-input .submit {
   display: flex;
   justify-content: center;
