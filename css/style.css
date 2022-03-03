@@ -5,13 +5,13 @@
 }
 
 body {
-  background-color: #1f2138;
+  background: linear-gradient(180deg, #1f2138 0%, #171825 100%);
   font-family: "Roboto", sans-serif;
   color: white;
 }
-::selection{
+::selection {
   color: #1f2138;
-  background :#e3f2ff
+  background: #e3f2ff;
 }
 
 body::-webkit-scrollbar {
@@ -47,7 +47,6 @@ a:hover {
 }
 
 .container {
- 
   width: 100%;
   margin: auto;
   padding: 20px 0;
